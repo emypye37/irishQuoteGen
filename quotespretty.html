@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" cotent="ie=edge">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="genstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+</head>
+<body class="enter">
+    <div class="container-fluid text-center padding welcome-message">
+        <h1>Fáilte roimh chách Irish quote generator!</h1>
+        <h4>(Welcome to my Irish quote generator!)</h4>
+        <h3>Ar mhaith leat...</h3>
+        <h4>(Do you want...?)</h4>
+      <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-outline-light">
+              <input type="radio" name="quote-type" id="banter"> Fireside Banter
+          </label>
+          <label class="btn btn-outline-light">
+            <input type="radio" name="quote-type" id="lit"> Literary Wisdom
+        </label>
+      </div>
+        <p id="question">How many quotes would you like?</p>
+        <div class="number-of-quotes">
+            <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio" value="1">1
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio" value="2">2
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio" value="3">3
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optradio" value="4">4
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optradio" value="5">5
+                    </label>
+                  </div>
+                  <a href="" class="btn btn-outline-light text-center go-modal">Téigh (Go)</a>
+                  <div id="quotes-modal" class="modal">
+                        <div id="quotes-modal-content">
+                            <button href="" class="btn" id="close">Done!</button>
+                            <p id="quotes-here"></p>
+                        </div>
+                  </div> 
+        </div>
+    </div>
+
+    <script src="generatorpretty.js"></script>
+</body>
+</html>

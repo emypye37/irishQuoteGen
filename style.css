@@ -1,0 +1,39 @@
+.enter {
+    background-image: url(/js/photos/irishqg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position: top;
+    padding-top: 70px;
+    font-family: fantasy;
+    color: #026440;
+}
+.welcome-message h4 {
+    color: white;
+}
+.welcome-message h1, h3 {
+    font-family: 'Uncial Antiqua';
+}
+.welcome-message p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.btn-outline-light {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 15px;
+    border-color: #026440;
+    border-width: 2px;
+}
+.btn-outline-light:hover {
+    background-color: #FF7900;
+    color: white;
+}
+.btn-outline-light:active {
+    color: #026440;
+}
+.number-of-quotes {
+    font-size: 2em;
+}
+.go {
+    font-size: .60em;
+}
